@@ -1,0 +1,57 @@
+[
+  {
+    "id": "7irziu5k7",
+    "name": "Action",
+    "slug": "action",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&auto=format&fit=crop&q=60",
+    "seo_title": "Action Games - Play Free Online | Ulti Gravity",
+    "seo_description": "Play the best free online action games. No downloads required, play directly in your browser.",
+    "seo_keywords": "action, free games, browser games",
+    "created_at": "2026-06-09 12:06:35",
+    "content_unit": null
+  },
+  {
+    "id": "2tyu3bwhc",
+    "name": "Arcade",
+    "slug": "arcade",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&auto=format&fit=crop&q=60",
+    "seo_title": "Arcade Games - Play Free Online | Ulti Gravity",
+    "seo_description": "Play the best free online arcade games. No downloads required, play directly in your browser.",
+    "seo_keywords": "arcade, free games, browser games",
+    "created_at": "2026-06-09 12:06:35",
+    "content_unit": "<h3>Play the Best Free Online Arcade Games – Instant Fun Awaits!</h3>\n\n<p>Welcome to the ultimate destination for classic and modern arcade thrills! Our Arcade category is packed with fast-paced, addictive games that promise endless entertainment for players of all ages. Relive the golden age of gaming with titles that challenge your reflexes, test your precision, and reward your quick thinking. From retro-inspired gems to innovative new experiences, every game here is designed for instant fun and easy pick-up-and-play action. Dive into a world where high scores are king and every session is a new adventure, all completely free and available to play directly in your browser.</p>\n\n<p>Forget tedious downloads and complex installations. At our gaming portal, we believe in providing immediate access to the best arcade games online. Whether you have a few minutes to spare or hours to conquer leaderboards, our collection offers a diverse range of challenges. Experience the joy of simple yet profound gameplay that has captivated generations, fine-tuned for today's web. Get ready to tap, swipe, and strategize your way to victory – the arcade experience is just a click away!</p>\n\n<h3>Explore a Universe of Arcade Challenges</h3>\n\n<p>Our Arcade category isn't just one type of game; it's a vibrant tapestry of sub-genres and unique mechanics. Discover everything from exhilarating action games that demand lightning-fast reactions to clever puzzle games that will bend your mind. Each title offers a fresh take on the core arcade philosophy: easy to learn, difficult to master, and incredibly rewarding.</p>\n\n<ul>\n    <li><strong>Reflex-Testing Action:</strong> Engage in thrilling shoot 'em ups, platformers, and dodging games where every millisecond counts.</li>\n    <li><strong>Mind-Bending Puzzles:</strong> Challenge your logic and problem-solving skills with unique matching, stacking, and physics-based brain teasers.</li>\n    <li><strong>High Score Chasing:</strong> Compete against yourself and others to achieve the top spot on leaderboards, proving your mastery.</li>\n    <li><strong>Nostalgic Retro Flair:</strong> Rediscover the charm of pixel art and chiptune soundtracks that pay homage to gaming's roots.</li>\n    <li><strong>Simple, Intuitive Controls:</strong> Enjoy games that are easy to pick up with minimal learning curves, perfect for quick sessions.</li>\n    <li><strong>Diverse Themes & Styles:</strong> From futuristic sci-fi to whimsical fantasy, find an arcade game that perfectly matches your mood.</li>\n</ul>\n\n<h3>Frequently Asked Questions About Arcade Games</h3>\n\n<p><strong>Are these arcade games truly free to play?</strong><br/>\nYes, absolutely! All games within our Arcade category are 100% free to play, with no hidden costs or subscriptions required. Just click and start playing instantly.</p>\n\n<p><strong>Can I play these games on my mobile device?</strong><br/>\nMany of our arcade games are optimized for mobile play, allowing you to enjoy them on your smartphone or tablet. Look for games with responsive designs for the best on-the-go experience.</p>\n\n<p><strong>Do I need to download any software or install anything to play?</strong><br/>\nNo downloads or installations are required. All games in this category are instant-play directly in your web browser, ensuring a seamless and hassle-free gaming experience.</p>\n\n<p><strong>What kind of arcade games can I expect to find here?</strong><br/>\nOur collection spans a wide range of arcade styles, including classic retro games, modern action titles, skill-based challenges, puzzle games, and various other fast-paced experiences designed for quick, addictive fun.</p>"
+  },
+  {
+    "id": "38540lwev",
+    "name": "Puzzle",
+    "slug": "puzzle",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&auto=format&fit=crop&q=60",
+    "seo_title": "Puzzle Games - Play Free Online | Ulti Gravity",
+    "seo_description": "Play the best free online puzzle games. No downloads required, play directly in your browser.",
+    "seo_keywords": "puzzle, free games, browser games",
+    "created_at": "2026-06-09 12:06:35",
+    "content_unit": null
+  },
+  {
+    "id": "2mk289zcj",
+    "name": "Racing",
+    "slug": "racing",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&auto=format&fit=crop&q=60",
+    "seo_title": "Racing Games - Play Free Online | Ulti Gravity",
+    "seo_description": "Play the best free online racing games. No downloads required, play directly in your browser.",
+    "seo_keywords": "racing, free games, browser games",
+    "created_at": "2026-06-09 12:06:35",
+    "content_unit": null
+  },
+  {
+    "id": "mj67uedpu",
+    "name": "Uncategorized",
+    "slug": "uncategorized",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&auto=format&fit=crop&q=60",
+    "seo_title": "Uncategorized Games - Play Free Online | Ulti Gravity",
+    "seo_description": "Play the best free online uncategorized games. No downloads required, play directly in your browser.",
+    "seo_keywords": "uncategorized, free games, browser games",
+    "created_at": "2026-06-09 12:06:35",
+    "content_unit": null
+  }
+]
