@@ -116,7 +116,7 @@ export function getSiteSettings(): SiteSettings {
     console.error('Failed to load settings from JSON:', error);
   }
   return {
-    site_name: 'ULTI GRAVITY',
+    site_name: 'gamecis',
     site_logo: ''
   };
 }

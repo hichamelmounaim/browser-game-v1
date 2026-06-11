@@ -213,14 +213,14 @@ export default function HomeClient({ games, categories, siteSettings, lang = 'en
       {/* SEO Section */}
       <section className="px-6 py-12 max-w-4xl mx-auto text-center border-t border-outline-variant/20 mt-12">
         <h2 className="font-headline-lg text-headline-lg mb-6 text-on-surface">
-          {t.seoBlockTitle.replace('Gamecis.com', siteSettings?.site_name || 'ULTI GRAVITY')}
+          {t.seoBlockTitle.replace('Gamecis.com', siteSettings?.site_name || 'gamecis')}
         </h2>
         <div className="text-on-surface-variant space-y-4 leading-relaxed text-sm">
           <p>
-            {t.seoBlockP1.replace('Gamecis.com', siteSettings?.site_name || 'ULTI GRAVITY')}
+            {t.seoBlockP1.replace('Gamecis.com', siteSettings?.site_name || 'gamecis')}
           </p>
           <p>
-            {t.seoBlockP2.replace('Gamecis.com', siteSettings?.site_name || 'ULTI GRAVITY')}
+            {t.seoBlockP2.replace('Gamecis.com', siteSettings?.site_name || 'gamecis')}
           </p>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">

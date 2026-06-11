@@ -122,7 +122,7 @@ export default function Navbar({ siteSettings, lang = 'en' }: { siteSettings?: {
             {siteSettings?.site_logo ? (
               <img src={siteSettings.site_logo} alt={siteSettings.site_name} className="h-10 md:h-12 w-auto object-contain" />
             ) : (
-              <span>{siteSettings?.site_name || 'ULTI GRAVITY'}</span>
+              <span>{siteSettings?.site_name || 'gamecis'}</span>
             )}
           </Link>
           
