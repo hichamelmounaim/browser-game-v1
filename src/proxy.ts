@@ -46,6 +46,6 @@ export const config = {
      * - sitemap.xml
      * - robots.txt
      */
-    '/((?!api|_next/static|_next/image|favicon.ico|logo.jpg|sitemap.xml|robots.txt).*)',
+    '/((?!api|_next/static|_next/image|favicon.ico|logo.jpg|sitemap\\.xml|sitemap/.*|robots.txt).*)',
   ],
 };
