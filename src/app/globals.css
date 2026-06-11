@@ -1,26 +1,147 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-inverse-on-surface: #edf1f5;
+  --color-inverse-surface: #2c3134;
+  --color-secondary-fixed-dim: #fabd00;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #0075d8;
+  --color-on-error-container: #93000a;
+  --color-surface-tint: #005fb0;
+  --color-on-secondary-fixed: #261a00;
+  --color-surface-container-highest: #dfe3e7;
+  --color-text-main: #1A1A1B;
+  --color-on-error: #ffffff;
+  --color-surface-white: #FFFFFF;
+  --color-outline-variant: #c1c6d5;
+  --color-surface-container: #eaeef2;
+  --color-secondary: #785900;
+  --color-outline: #717784;
+  --color-on-secondary-fixed-variant: #5b4300;
+  --color-on-background: #171c1f;
+  --color-tertiary: #ac2e00;
+  --color-surface-variant: #dfe3e7;
+  --color-primary-fixed-dim: #a6c8ff;
+  --color-primary: #005cac;
+  --color-error-container: #ffdad6;
+  --color-on-tertiary-fixed-variant: #862200;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #d73b00;
+  --color-on-primary-fixed-variant: #004787;
+  --color-secondary-fixed: #ffdf9e;
+  --color-on-secondary-container: #6c5000;
+  --color-tertiary-fixed: #ffdbd1;
+  --color-on-tertiary-container: #fffbff;
+  --color-inverse-primary: #a6c8ff;
+  --color-on-surface-variant: #414753;
+  --color-on-primary-container: #fefcff;
+  --color-on-surface: #171c1f;
+  --color-background: #f6fafe;
+  --color-surface-bright: #f6fafe;
+  --color-on-tertiary-fixed: #3b0900;
+  --color-deep-blue: #009CFF;
+  --color-surface-container-low: #f0f4f8;
+  --color-neon-mint: #83FFE7;
+  --color-tertiary-fixed-dim: #ffb5a0;
+  --color-surface-container-high: #e4e9ed;
+  --color-surface-dim: #d6dade;
+  --color-error: #ba1a1a;
+  --color-surface: #f6fafe;
+  --color-electric-purple: #7C4DFF;
+  
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-headline-xl: 'Plus Jakarta Sans', sans-serif;
+  --font-body-md: 'Plus Jakarta Sans', sans-serif;
+  --font-headline-lg-mobile: 'Plus Jakarta Sans', sans-serif;
+  --font-body-lg: 'Plus Jakarta Sans', sans-serif;
+  --font-label-sm: 'Plus Jakarta Sans', sans-serif;
+  --font-label-bold: 'Plus Jakarta Sans', sans-serif;
+  --font-headline-md: 'Plus Jakarta Sans', sans-serif;
+  --font-headline-lg: 'Plus Jakarta Sans', sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  body {
+    @apply bg-background text-on-surface font-sans antialiased;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Material symbols outlined font import */
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Bento Grid styling for responsive game lists */
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+@media (max-width: 767px) {
+  .bento-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+}
+
+/* Scrollbar hide helpers */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Poki-inspired Low-Poly Background and Copywriting styles */
+.poki-lowpoly {
+  background-color: #e6fafb;
+  background-image: 
+    linear-gradient(30deg, #d2f4f6 12%, transparent 12.5%, transparent 87%, #d2f4f6 87.5%, #d2f4f6),
+    linear-gradient(150deg, #d2f4f6 12%, transparent 12.5%, transparent 87%, #d2f4f6 87.5%, #d2f4f6),
+    linear-gradient(30deg, #d2f4f6 12%, transparent 12.5%, transparent 87%, #d2f4f6 87.5%, #d2f4f6),
+    linear-gradient(150deg, #d2f4f6 12%, transparent 12.5%, transparent 87%, #d2f4f6 87.5%, #d2f4f6),
+    linear-gradient(60deg, #ddf7f9 25%, transparent 25.5%, transparent 75%, #ddf7f9 75.5%, #ddf7f9),
+    linear-gradient(60deg, #ddf7f9 25%, transparent 25.5%, transparent 75%, #ddf7f9 75.5%, #ddf7f9);
+  background-size: 80px 140px;
+  background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
+
+.rich-text-cu h3 {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #0d383a;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.rich-text-cu p {
+  color: #2e595b;
+  line-height: 1.625;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.rich-text-cu ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  margin-bottom: 1.25rem;
+  color: #2e595b;
+}
+
+.rich-text-cu li {
+  margin-bottom: 0.5rem;
+}
+
+.rich-text-cu strong {
+  color: #0a2f31;
+  font-weight: 700;
 }
