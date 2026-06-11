@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { getAllGames, getAllCategories } from "@/lib/db";
 
+export const revalidate = 3600; // Force cache invalidation every hour
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const games = getAllGames();
   const categories = getAllCategories();
